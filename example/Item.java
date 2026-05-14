@@ -11,6 +11,9 @@ public class Item implements Comparable<Item>{
         IN_STORE, BORROWED, LOST
     }
 
+    //Abstract Methods
+    public abstract String getDescription();
+
     //Constructor
     public Item(String itemId, String title) {
         this.itemId = itemId;
