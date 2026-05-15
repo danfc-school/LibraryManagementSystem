@@ -9,7 +9,7 @@ public class Book extends Item {
 
 
     //Constructor
-    public Book(String itemId, String title) {
+    public Book(String itemId, String title, String ISBBN, String author, String genre) {
         super(itemId, title);
     }
     
